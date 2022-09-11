@@ -15,7 +15,7 @@ ul{
     list-style-type: none;
     overflow: hidden;
     padding:5px 5px 5px;
-    background-color: aqua;
+    background-color: #01579B;
 }
 
 li a{
@@ -27,6 +27,9 @@ li a{
     display: block;
     border:2px black;
     color:white;
+    border-right: thin solid white;
+}
+.goSearch{
     border-right: thin solid white;
     border-left: thin solid white;
 }
@@ -108,7 +111,7 @@ border-radius: 18px;
     width:300px;
     margin: 0 auto;
     padding-top: 10px;
-    background: aqua;
+    background-color: #01579B;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
     border:1px solid white;
@@ -133,7 +136,7 @@ font-family: Andale Mono, monospace;
 #result .api-text{
     width:100%;
     font-size: 22px;
-    color: white;
+    color: aqua;
     width:100%;
     font-family: Andale Mono, monospace;
     text-decoration: underline;
@@ -197,7 +200,6 @@ font-family: Andale Mono, monospace;
         width:500px;
         margin: 0 auto;
         padding-top: 10px;
-        background: aqua;
         border-radius: 10px 10px 10px 10px;
         text-align: center;
         border:1px solid white;
