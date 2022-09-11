@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("Images/WeatherBackground2.png");
+}
+
+.container{
+    width:100%;
+    position: fixed;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding:5px 5px 5px;
+    background-color: aqua;
+}
+
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    float:right;
+    padding: 5px 5px 5px;
+    font-size: 18px;
+    display: block;
+    border:2px black;
+    color:white;
+    border-right: thin solid white;
+    border-left: thin solid white;
+}
+li .name{
+    text-decoration: none;
+    font-weight: bold;
+    float:left;
+    padding: 5px 5px 5px;
+    font-size:18px;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.wrapper{
+    width:300px;
+    margin: 0 auto;
+    padding: 100px 10px 20px;
+}
+#inp-1{
+width:300px;
+line-height: 40px;
+text-align: center;
+font-size: 20px;
+font-family: Andale Mono, monospace;
+border-style: none;
+text-decoration: underline;
+border-radius: 10px 10px 0px 0px;
+outline:none;
+}
+
+#btn-1{
+    width:300px;
+    line-height: 40px;
+    text-align: center;
+    font-size:20px;
+    font-family: Andale Mono, monospace;
+    border-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.title{
+    text-align: center;
+    color:white;
+    font-family: Trebuchet MS, sans-serif;
+    padding-bottom: 20px;
+}
+.wrapper-2{
+width:100%;
+background-color: aqua;
+padding: 15px 15px 15px;
+margin:0 auto;
+border-radius: 18px;
+}
+.arrow{
+    width:50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.data{
+    width:100%;
+    text-align: center;
+    padding-bottom: 10px;
+    color:white;
+    font-family: Andale Mono, monospace;
+}
+.cover{
+    width:300px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+#result{
+    width:300px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background: aqua;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    border:1px solid white;
+    border-width: 5px;
+    
+}
+#result h1{
+color: white;
+text-align: center;
+padding-bottom: 10px;
+text-decoration: underline;
+font-family: Andale Mono, monospace;
+}
+#result h3:not(.api-text){
+    width:100%;
+    color:white;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: Andale Mono, monospace;
+    text-align: center;
+}
+#result .api-text{
+    width:100%;
+    font-size: 22px;
+    color: white;
+    width:100%;
+    font-family: Andale Mono, monospace;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+    padding-bottom: 5px;
+}
+
+
+
+@media only screen and (min-width: 760px){
+    body{
+        background-image: url("Images/WeatherBackground.png");
+    }
+    ul{
+        padding: 25px 25px 25px;
+    }
+    li a{
+        font-size: 35px;
+    }
+   li .name{
+        font-size: 35px;
+    }
+    .title{
+        padding-top: 100px;
+        font-size: 55px;
+    }
+
+    .wrapper{
+        width:500px;  
+    }
+
+    #inp-1{
+        width:500px;
+        line-height: 60px;
+        font-size: 28px;
+    }
+  
+    #btn-1{
+        width:500px;
+        line-height: 60px;
+        font-size: 28px;
+    }
+    .data{
+        font-size:50px;
+    }
+    .arrow{
+        width:100px;
+        height: 70px;
+    }
+
+
+    .cover{
+        width:500px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+    #result{
+        width:500px;
+        margin: 0 auto;
+        padding-top: 10px;
+        background: aqua;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        border:1px solid white;
+        border-width: 5px;
+        
+    }
+    #result h1{
+    font-size: 50px;
+    }
+    #result h3:not(.api-text){
+       font-size:30px;
+    }
+    #result .api-text{
+        font-size:38px;
+
+    }
+    
+}
