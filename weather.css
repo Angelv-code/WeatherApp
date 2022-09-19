@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("Images/WeatherBackground2.png");
+    background: rgb(29, 28, 28);
 }
 
 .container{
@@ -15,7 +15,7 @@ ul{
     list-style-type: none;
     overflow: hidden;
     padding:5px 5px 5px;
-    background-color: #01579B;
+    background-color:rgb(63, 58, 58);
 }
 
 li a{
@@ -82,7 +82,7 @@ outline:none;
 }
 .wrapper-2{
 width:100%;
-background-color: aqua;
+background-color: rgb(158, 152, 152);
 padding: 15px 15px 15px;
 margin:0 auto;
 border-radius: 18px;
@@ -111,18 +111,18 @@ border-radius: 18px;
     width:300px;
     margin: 0 auto;
     padding-top: 10px;
-    background-color: #01579B;
+    background-color: rgb(95, 91, 91);
     border-radius: 10px 10px 10px 10px;
     text-align: center;
     border:1px solid white;
     border-width: 5px;
-    
 }
 #result h1{
 color: white;
 text-align: center;
 padding-bottom: 10px;
 text-decoration: underline;
+text-underline-offset: 16.5px;
 font-family: Andale Mono, monospace;
 }
 #result h3:not(.api-text){
@@ -136,7 +136,7 @@ font-family: Andale Mono, monospace;
 #result .api-text{
     width:100%;
     font-size: 22px;
-    color: aqua;
+    color: rgb(190, 182, 182);
     width:100%;
     font-family: Andale Mono, monospace;
     text-decoration: underline;
@@ -149,9 +149,7 @@ font-family: Andale Mono, monospace;
 
 
 @media only screen and (min-width: 760px){
-    body{
-        background-image: url("Images/WeatherBackground.png");
-    }
+
     ul{
         padding: 20px 20px 20px;
     }

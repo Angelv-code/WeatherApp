@@ -37,7 +37,7 @@ searchBtn.addEventListener("click", () => {
         
 
         result.innerHTML= `
-        <h1>${data.name}</h1>
+        <h1>${data.name}, ${data.sys.country}</h1>
         <img class = "img-api" src = "http://openweathermap.org/img/w/${data.weather[0].icon}.png">
         <h3 class = "api-text">Temperature </h3> <h3>${data.main.temp} - Fahrenheit</h3>
         <h3 class = "api-text">Feels Like </h3> <h3>${data.main.feels_like} - Fahrenheit</h3>

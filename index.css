@@ -3,7 +3,7 @@
     padding:0;
 }
 body{
-    background-image: url("Images/WeatherBackground2.png");
+    background: rgb(29, 28, 28);
 }
 .container{
     width:100%;
@@ -13,7 +13,7 @@ ul{
     list-style-type: none;
     overflow: hidden;
     padding:5px 5px 5px;
-    background-color: #01579B;
+    background-color:rgb(63, 58, 58);
 }
 
 li a{
@@ -90,7 +90,7 @@ li a:hover{
 .ending{
     font-size: 20px;
     padding: 0px 20px 20px;
-    text-align: center;
+    
     line-height: 25px;
     font-family: Trebuchet MS, sans-serif;
     color:white;
@@ -121,9 +121,7 @@ li a:hover{
 }
 
 @media only screen and (min-width: 760px){
-    body{
-        background-image: url("Images/WeatherBackground.png");
-    }
+  
 
     .intro{
     width:600px;
