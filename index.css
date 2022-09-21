@@ -3,7 +3,7 @@
     padding:0;
 }
 body{
-    background: rgb(29, 28, 28);
+    background: #30475E;
 }
 .container{
     width:100%;
@@ -13,7 +13,7 @@ ul{
     list-style-type: none;
     overflow: hidden;
     padding:5px 5px 5px;
-    background-color:rgb(63, 58, 58);
+    background-color:#F05454;
 }
 
 li a{
